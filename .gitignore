@@ -1,6 +1,9 @@
 # Ignore compiled files
 *.js
+*.d.ts
 *.map
+
+# Ignore cdktf output
 /cdktf.out/
 
 # Ignore node_modules
