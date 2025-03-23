@@ -14,6 +14,7 @@ This project provides AWS network infrastructure using CDK for Terraform (CDKTF)
 
 ```
 qt-network-cdktf/
+├── main.ts                 # Main stack definition
 ├── lib/                    # Reusable constructs
 │   ├── constructs/
 │   │   ├── vpc.ts         # VPC construct
@@ -21,11 +22,8 @@ qt-network-cdktf/
 │   └── interfaces/
 │       ├── vpc-types.ts   # VPC configuration types
 │       └── subnet-types.ts # Subnet configuration types
-├── bin/                    # Stack implementations
-│   └── simple-network.ts   # Main stack definition
-├── test/                   # Test files
-│   ├── vpc.test.ts
-│   └── subnet.test.ts
+├── __test__/                   # Test files
+│   └── main-test.ts
 └── cdktf.json             # CDKTF configuration
 ```
 
