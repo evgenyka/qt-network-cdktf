@@ -1,0 +1,18 @@
+# Ignore compiled files
+*.js
+*.map
+/cdktf.out/
+
+# Ignore node_modules
+/node_modules/
+
+# Ignore terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+
+# Ignore logs
+*.log
