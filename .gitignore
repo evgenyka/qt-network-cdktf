@@ -9,9 +9,12 @@
 # Ignore node_modules
 /node_modules/
 
-# Ignore terraform state files
-terraform.tfstate
-terraform.tfstate.backup
+# Ignore Terraform state files
+terraform.qt-network-cdktf.tfstate
+terraform.qt-network-cdktf.tfstate.backup
+
+# Ignore package lock file
+package-lock.json
 
 # Ignore IDE/editor files
 .idea/
